@@ -17,7 +17,7 @@ public class StudentDaoImpl implements StudentDao {
 	JdbcTemplate jdbcTemplate;
 	
 	
-	@Override
+	
 	public String add(Student student) {
 		String status="";
 		Student  std=search(student.getSid());
